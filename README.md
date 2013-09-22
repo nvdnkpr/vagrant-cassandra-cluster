@@ -9,7 +9,7 @@
 
 ## Instructions
 
-It is pre-configured to set up 3 cassandra 1.2 nodes (vagrant boxes) in a single rack configuration. To set-up a different configuration, change the `vagrantfile`, the `hosts` file in the data directory, the `cassandracluster` file and the `host_vars` files in the ansible folder. You can use the `tokengentool` script (`./tokengentool`) to generate the correct tokens.
+It is pre-configured to set up 3 cassandra nodes (vagrant boxes) in a single rack configuration. To set-up a different configuration, change the `vagrantfile`, the `hosts` file in the data directory, the `cassandracluster` file and the `host_vars` files in the ansible folder. You can use the `tokengentool` script (`./tokengentool`) to generate the correct tokens.
 
 Now:
 
