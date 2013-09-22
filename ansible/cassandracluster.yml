@@ -1,0 +1,15 @@
+---
+
+- name: basic setup
+  hosts: all
+  gather_facts: yes
+  roles:
+    - role: common
+      tags:
+        - common
+
+- name: cassandra
+  hosts: cassandra
+    - role: cassandra
+      tags:
+        - cassandra

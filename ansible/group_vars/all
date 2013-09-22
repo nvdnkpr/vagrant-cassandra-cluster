@@ -1,0 +1,32 @@
+users:
+  - name: vagrant
+    passwd: '$6$yamanote$gSPglFOaTkiWBH.LuUAJXC/Q/uYOigfI.Ydy8jGbUHD9JgUMVl7nMAWAoICrNToYMqcT.Gfw9/EBh5xEX2WK20'
+    comment: 'vagrant'
+    uid: 1000
+    shell: /bin/bash
+    groups:
+    - vagrant
+    - adm
+    - cdrom
+    - sudo
+    - dip
+    - plugdev
+    - lpadmin
+    - sambashare
+    - admin
+    - staff
+    append: no
+
+keys:
+  - user: vagrant
+    key: "TODO_SSH_key"
+
+timezone: UTC
+
+cassandra_cluster_name: "Vagrant cluster"
+cassandra_seeds:
+  - cassandra.node0
+cassandra_endpoint_snitch: "RackInferringSnitch"
+cassandra_rpc_address: 0.0.0.0
+cassandra_concurrent_reads: 32
+cassandra_concurrent_writes: 32

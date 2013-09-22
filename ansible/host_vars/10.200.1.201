@@ -1,0 +1,8 @@
+fqdn: cassandra.node1
+hostname: cassandra.node1
+
+machine_cpu_count: 1
+machine_memory_in_mb: 1024
+
+cassandra_listen_address: 10.200.1.201
+cassandra_initial_token: "-3074457345618258603"
