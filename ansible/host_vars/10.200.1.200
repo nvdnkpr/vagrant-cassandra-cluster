@@ -1,7 +1,7 @@
-fqdn: cassandra.node0
-hostname: cassandra.node0
+fqdn: cassandra-node0
+hostname: cassandra-node0
 
-machine_cpu_count: 1
+machine_cpu_count: 4
 machine_memory_in_mb: 1024
 
 cassandra_listen_address: 10.200.1.200
